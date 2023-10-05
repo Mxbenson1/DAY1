@@ -5,17 +5,35 @@ body{
     box-sizing:border-box;
 }
 
-nav {
+/* nav {
     display: flex;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
+} */
+header img{
+    display: block;
+    margin: auto;
+    height: 80px;
+    Width: auto;
+}
+header{
+    background-color: rgb(250, 252, 245);
 }
 nav p {
     display: flex;
     flex-grow: 1;
+    justify-content: center;
 }
-main{
+nav, main, footer{
     display: flex;
     width:80%;
     justify-content: center;
-    margin: 20px 50px 30px 15px;
+    margin:30px auto;
+}
+article{
+    width: 60%;
+    padding:10px;
+}
+main ul{
+    width: 40%;
+    padding:10px;
 }
