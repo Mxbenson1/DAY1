@@ -29,6 +29,10 @@ nav p {
     justify-content: center;
     color:black;
 }
+nav p:hover{
+    background-color: dimgray;
+    color:darkslategray;
+}
 nav, main, footer{
     color: rgb(255, 255, 255);
     display: flex;
@@ -68,4 +72,7 @@ h2{
 }
 p{
     line-height: 1.5em;
+}
+footer a{
+    color:darkgoldenrod;
 }
