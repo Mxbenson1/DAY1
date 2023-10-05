@@ -1,5 +1,5 @@
 body{
-    background-image: url(../images/sherwood2.jpg);
+    background-image: url(../images/sherwood3.jpg);
     background-size: cover;
     background-repeat: none;
     background-attachment: fixed;
@@ -32,12 +32,11 @@ nav {
     background-color: lightgray;
 }
 nav, main, footer{
-    color: rgb(49, 57, 67);
+    color: rgb(255, 255, 255);
     display: flex;
     width:60%;
     justify-content: center;
     margin:30px auto;
-
 }
 main{
   
@@ -53,6 +52,14 @@ aritcle p{
 main ul{
     width: 40%;
     padding:10px;
+    align-self: flex-end;
+}
+main ul li {
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px;
+    border: solid white 1px;
+    text-align: center;
 }
 h1{
     font-size: 3em;
