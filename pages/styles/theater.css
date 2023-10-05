@@ -1,4 +1,8 @@
 body{
+    background-image: url(../images/sherwood.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-attachment: fixed;
     font-family: 'Roboto', sans-serif;
     margin:opx;
     padding:0px;
@@ -23,11 +27,17 @@ nav p {
     flex-grow: 1;
     justify-content: center;
 }
+nav {
+    background-color: lightgray;
+}
 nav, main, footer{
     display: flex;
-    width:80%;
+    width:60%;
     justify-content: center;
     margin:30px auto;
+}
+main{
+  
 }
 article{
     width: 60%;
