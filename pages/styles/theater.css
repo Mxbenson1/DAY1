@@ -1,23 +1,20 @@
-header {
-    background-color: aquamarine;
+body{
+    font-family: 'Roboto', sans-serif;
+    margin:opx;
+    padding:0px;
+    box-sizing:border-box;
 }
 
-nav {
-    background-color: blue;
+nav, main {
+    display: flex;
+    flex-flow: column wrap;
+}
+nav p{
+    flex-grow: 1;
 }
 
-Main {
-    background-color: brown;
-}
+ul {}
 
-ul {
-    background-color: bisque;
-}
+li {}
 
-li {
-    color: cornsilk;
-}
-
-footer {
-    color: blueviolet;
-}
+footer {}
