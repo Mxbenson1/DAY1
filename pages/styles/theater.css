@@ -1,5 +1,5 @@
 body{
-    background-image: url(../images/sherwood.jpg);
+    background-image: url(../images/sherwood2.jpg);
     background-size: cover;
     background-repeat: none;
     background-attachment: fixed;
@@ -7,6 +7,7 @@ body{
     margin:opx;
     padding:0px;
     box-sizing:border-box;
+    font-size: 16px;
 }
 
 /* nav {
@@ -31,10 +32,12 @@ nav {
     background-color: lightgray;
 }
 nav, main, footer{
+    color: rgb(49, 57, 67);
     display: flex;
     width:60%;
     justify-content: center;
     margin:30px auto;
+
 }
 main{
   
@@ -43,7 +46,20 @@ article{
     width: 60%;
     padding:10px;
 }
+aritcle p{
+    border-bottom:solid 1px white;
+    padding-bottom: 10px;
+}
 main ul{
     width: 40%;
     padding:10px;
+}
+h1{
+    font-size: 3em;
+}
+h2{
+    font-size: 2em;
+}
+p{
+    line-height: 1.5em;
 }
