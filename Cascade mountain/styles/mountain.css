@@ -101,3 +101,11 @@ figcaption{
     float: left;
     margin-right: 7px;
 }
+
+h1, h2, h3{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+p,li {
+    font-family: 'Dosis', sans-serif;
+}
