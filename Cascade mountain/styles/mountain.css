@@ -35,8 +35,17 @@ nav ul{
     margin-bottom: 15px;
 }
 
-nav a{
+nav li{
     display: inline-block;
+}
+
+nav a{
+    padding: 9px;
+    display: block;
+    width: 100px;
+    text-decoration: none;
+    background-color: #344e5f;
+    color: white;
 }
 
 nav a:hover{
@@ -46,7 +55,8 @@ nav a:hover{
 footer{
     color:white;
     padding: 9px;
-    background-color: rgba(68,165,181,0.8);    
+    background-color: rgba(68,165,181,0.8);   
+    clear: both; 
 }
 
 footer p{
@@ -57,4 +67,17 @@ footer p{
     width: 960px;
     background-color: rgb (255,255,255,0.7);
     margin: auto;
+}
+.content{
+    padding: 10px;
+    width: 630px;
+    float: left;
+}
+
+.sidebar{
+    float: left;
+    width: 300px;
+    background-color: rgba (255,255,255,.4);
+    color: #44a5b5;
+    padding: 4px;
 }
