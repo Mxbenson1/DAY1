@@ -1,0 +1,44 @@
+header, section, aside, article, footer, figure {
+    display: block;
+    font-family: 'Glory', sans-serif;
+}
+
+header{
+    background-color: white;
+    color: #1b1e29;
+    padding-top: 25px;
+}
+
+header h1{
+    margin-left: 15px;
+    font-size: 30px;
+}
+
+header h3{
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+nav ul{
+    text-align: center;
+    list-style: none;
+    background-color: #1b1e29;
+    margin-bottom: 15px;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav a{
+    padding: 9px;
+    display: block;
+    width: 175px;
+    text-decoration: none;
+    background-color: #1b1e29;
+    color: white;
+}
+
+nav a:hover{
+    background-color: #344e5f;
+}
