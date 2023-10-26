@@ -90,7 +90,21 @@ main section{
     
 }
 .pic6{
-    background-image: url(../images/sj-011.jpg);
+    background-image: url(../images/sj-010.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+.pic2{
+    background-image: url(../images/sj-016.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+.pic4{
+    background-image: url(../images/sj-019.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
