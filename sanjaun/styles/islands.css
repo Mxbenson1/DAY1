@@ -1,7 +1,9 @@
 :root{
-    --green:#434b39 ;
+    --green:#4c7335 ;
     --white:#ffffff;
+    --blue:#11467d;
     font-family: 'Raleway', sans-serif;
+    color:var(--blue)
 }
 body,header,main,footer,section,article,aside{
     margin: 0px;
@@ -9,10 +11,15 @@ body,header,main,footer,section,article,aside{
     box-sizing: border-box;
     font-size: 16px;
 }
+.logo1{
+    height: 100px;
+    width: auto;
+    margin: 10px auto;
+}
 main,header,nav ul,footer{
     display: grid;
-    grid-template-columns: auto auto auto;
-    background-color: lightgray;
+    grid-template-columns: 33% 33% 33%;
+    /* background-color: lightgray; */
 }
 main section{
     border: solid white 1px;
@@ -20,7 +27,7 @@ main section{
     padding: 20px;
 }
 /*the following classes govern the sections and make them work w/in the grid*/
-.item1{
+.item1,.item8{
     grid-column-start: 1;
     grid-column-end: 3;
 }
@@ -28,7 +35,7 @@ main section{
     grid-column-start: 2;
     grid-column-end: 4;
 }
-.item8,.item9,.item10,.hero-orcas{
+.item9,.hero-orcas{
     grid-column-start: 1;
     grid-column-end: 4;
 }
@@ -37,8 +44,8 @@ header{
     background-color: var(--white);
     text-align: center;
 }
-header a, header p, nav a{
-    color: lightgray;
+header a, header p, nav a, label{
+    color: var(--blue);
     text-decoration: none;
 }
 .hero-orcas, main section{
@@ -62,14 +69,14 @@ nav ul li{
     height: 100px;
 }
 nav ul li:hover{
-    background-color: lightgray;
+    background-color: var(--green);
     color: var(--white);
 }
 /*images*/
 main section{
     height: 400px;
 }
-.item1{
+.item1, .item8{
     background-image: url(../images/sj-015.jpg);
 }
 .item3{
@@ -87,7 +94,6 @@ main section{
 .item6{
     grid-column-start: 1;
     grid-column-end: 2;
-    
 }
 .pic6{
     background-image: url(../images/sj-010.jpg);
@@ -109,4 +115,7 @@ main section{
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
+}
+footer {
+    padding: 5px;
 }
