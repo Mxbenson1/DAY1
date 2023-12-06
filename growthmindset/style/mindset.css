@@ -26,6 +26,14 @@ h1,h2,h3,h4{
 p{
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
+body{
+    background-image: url(../images/plant1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.514);
+    background-blend-mode: screen;
+}
 Header{
     background-color: #6c8270;
 }
@@ -50,4 +58,8 @@ nav a{
     color: black;
     text-decoration: none;
     padding: 10px;
+}
+nav a:hover{
+    background-color: #6c8270;
+    color: white;
 }
